@@ -77,6 +77,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 //            mGoogleApiClient.disconnect();
 //        }
 //      Holy shit
+        int test
         if(((JoinFragment)pagerAdapter.getItem(1)).getmGoogleApiClient() != null){
             if(((JoinFragment)pagerAdapter.getItem(1)).getmGoogleApiClient().isConnected()){
                 ((JoinFragment)pagerAdapter.getItem(1)).getmGoogleApiClient().disconnect();
